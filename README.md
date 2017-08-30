@@ -28,7 +28,7 @@ inventory.
 4. Update the `ProductSerializer` to include the orders for the product. X
 5. Update the `More Info` button on the products `index` page to show a
    list of orders with `id` and `created_at` in addition to the
-description and inventory.
+description and inventory. X
 6. Update the `OrderSerializer` to include the product names of all
    products on that order. X
 7. Get rid of the unused `/products/id/description` and

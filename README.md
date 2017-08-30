@@ -19,12 +19,12 @@ Latin practice!
 1. Create an ActiveModel::Serializer for `Product` and update the
    `products_controller` to use the new serializer in place of the
 existing `to_json` code. X
-2. Update the product show page to handle the new JSON.
+2. Update the product show page to handle the new JSON. X
 3. On the products `index` page, update the `More Info` button so that it
    uses the `/products/id.json` route to get both description and
 inventory.
   * **Note:** The serializer will return a different value for
-    `inventory` than the previous API, so you'll have to handle that.
+    `inventory` than the previous API, so you'll have to handle that. X
 4. Update the `ProductSerializer` to include the orders for the product. X
 5. Update the `More Info` button on the products `index` page to show a
    list of orders with `id` and `created_at` in addition to the
